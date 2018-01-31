@@ -15,10 +15,10 @@ Finishing Dissertations in
 <span id="t_s">00 SECONDS</span>
 </DIV>
 <script type="text/javascript">
-function getRTime(){
-var EndTime= new Date('2017/03/19 21:00:00'); //截止时间
-var NowTime = new Date();
-var t =EndTime.getTime() - NowTime.getTime();
+//function getRTime(){
+//var EndTime= new Date('2017/03/19 21:00:00'); //截止时间
+//var NowTime = new Date();
+//var t =EndTime.getTime() - NowTime.getTime();
 /*var d=Math.floor(t/1000/60/60/24);
 t-=d*(1000*60*60*24);
 var h=Math.floor(t/1000/60/60);
@@ -27,17 +27,23 @@ var m=Math.floor(t/1000/60);
 t-=m*60*1000;
 var s=Math.floor(t/1000);*/
   
-var h=Math.floor(t/1000/60/60);
-var m=Math.floor(t/1000/60%60);
-var s=Math.floor(t/1000%60);
+//var h=Math.floor(t/1000/60/60);
+//var m=Math.floor(t/1000/60%60);
+//var s=Math.floor(t/1000%60);
 
-document.getElementById("t_h").innerHTML = h + " HOURS";
-document.getElementById("t_m").innerHTML = m + " MINUTES";
-document.getElementById("t_s").innerHTML = s + " SECONDS";
+//document.getElementById("t_h").innerHTML = h + " HOURS";
+//document.getElementById("t_m").innerHTML = m + " MINUTES";
+//document.getElementById("t_s").innerHTML = s + " SECONDS";
 
 
-}
-setInterval(getRTime,1000);
+//}
+//setInterval(getRTime,1000);
 </script>
+  <h2>This countdown page has been stoped.</h2>
+  
+  <p>The set time of finishing the dissertation: 2017/03/19</p><br>
+  <p>Actual submitting time: 2017/08/03</p>
+  
+  
 </body>
 </html>
